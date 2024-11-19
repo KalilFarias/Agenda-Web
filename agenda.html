@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Agenda</h1>
+        <form id="agendaForm">
+            <label for="eventTitle">Evento:</label>
+            <input type="text" id="eventTitle" required>
+
+            <label for="eventDate">Data:</label>
+            <input type="date" id="eventDate" required>
+
+            <label for="eventTime">Hora:</label>
+            <input type="time" id="eventTime" required>
+
+            <button type="submit">Adicionar Evento</button>
+        </form>
+    </div>
+
+    <table id="eventTable">
+        <thead>
+            <tr>
+                <th>Evento</th>
+                <th>Data</th>
+                <th>Hora</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody id="eventList">
+
+        </tbody>
+    </table>
+
+    <script src = "script.js"></script>
+
+</body>
+
+</html>

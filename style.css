@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f9 url(img/img1.jpg) no-repeat center/cover;
+    color: #333;
+}
+
+.container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #555;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label, button, input {
+    font-size: 1rem;
+}
+
+input, button {
+    padding: 8px;
+    border-radius: 4px;
+}
+
+input {
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#eventList {
+    list-style: none;
+    padding: 0;
+}
+
+#eventList li {
+    padding: 10px;
+    margin: 10px 0;
+    background: #e9ecef;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete-btn {
+    padding: 5px 10px;
+    background: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background: #a71d2a;
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 200px auto;
+    padding: 40px;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
+    border-radius: 8px;
+    text-align: center;
+    opacity: 0.8;
+}
+
+#eventTable {
+    width: 90%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+#eventTable th, #eventTable td {
+    padding: 12px;
+    text-align: left;
+}
+
+#eventTable th {
+    background-color: #007bff;
+    color: white;
+}
+
+#eventTable td {
+    background-color: #f9f9f9;
+}
+
+#eventTable td button {
+    padding: 6px 12px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#eventTable td button:hover {
+    background-color: #a71d2a;
+}
+
+#eventTable tr:last-child td {
+    border-bottom: none;
+}
